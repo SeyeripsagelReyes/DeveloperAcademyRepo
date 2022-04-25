@@ -1,4 +1,4 @@
-package DevAcademyExercises;
+package DevExercises;
 
 /**
  * BingoCard

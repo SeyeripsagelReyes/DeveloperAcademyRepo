@@ -1,3 +1,4 @@
+package DevExercises;
 /**
  * RockPaperScissorsRules
  */
