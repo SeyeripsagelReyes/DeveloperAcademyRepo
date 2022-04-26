@@ -1,4 +1,4 @@
-package DevExercises;
+
 
 public class BingoRules {
     public static void main(String[] args) {

@@ -1,6 +1,3 @@
-package DevExercises;
-
-import java.io.InputStream;
 import java.util.Scanner;
 
 /**

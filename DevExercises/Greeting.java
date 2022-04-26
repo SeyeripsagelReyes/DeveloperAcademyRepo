@@ -5,7 +5,6 @@
  * Course
  * Date
  */
-package DevExercises;
 /**
  * The Greeting class displays a greeting.
  */

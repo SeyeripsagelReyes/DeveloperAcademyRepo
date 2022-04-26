@@ -1,7 +1,6 @@
 /**
  * Displays a welcome message.
  */
-package DevExercises;
 
 public class MulticulturalGreeting {
     public static void main(String[] args) {
