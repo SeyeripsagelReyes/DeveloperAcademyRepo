@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class MySavings {
     public static void main(String[] args)  {
-        PiggyBank Pig = new PiggyBank();
+    PiggyBank Pig = new PiggyBank();
        Scanner scan = new Scanner(System.in);
             int loop = 0;
             do{
