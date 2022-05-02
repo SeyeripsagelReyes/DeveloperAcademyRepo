@@ -15,12 +15,14 @@ public class Bowling {
         }
 
         Players[] player = new Players[playernum]; 
+        Sboard sboard = new Sboard();
 
        
 
         for (int i = 0; i < player.length; i++) {
            player[i] = new Players("Player "+String.valueOf(i));
-           player[i].playernum = playernum;
+           sboard.PlayerNumber = playernum;
+           
            
         }
 

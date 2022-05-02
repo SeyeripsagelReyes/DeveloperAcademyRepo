@@ -6,10 +6,6 @@ class Players {
     List<Integer> scoretotal = new ArrayList<>(10);
     int towtal=0;
     
-    
-    public int playernum;
-    // List<String> list1 = new ArrayList<String>();
-
     public Players(String name){
         name = this.name;
     }
@@ -40,10 +36,3 @@ class Players {
     }
   
 }
-
-   
-
-    
-
-    
-
