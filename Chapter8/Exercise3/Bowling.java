@@ -19,7 +19,6 @@ public class Bowling {
 
         for (int i = 0; i < 10; i++) {
             for (int j = 0; j < player.length; j++) {
-                Thread.sleep(2000);
                 int totalx;
                 totalx=0;
                 for (int k = 0; k < 2; k++) {
@@ -43,6 +42,7 @@ public class Bowling {
                 System.out.println();
                 Thread.sleep(1000);
                 sboard.show(player,playernum);
+                Thread.sleep(1000);
             }
             System.out.println();  
         }
