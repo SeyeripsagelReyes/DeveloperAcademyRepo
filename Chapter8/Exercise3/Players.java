@@ -3,7 +3,6 @@ class Players {
     private String name;
     List<Integer> score = new ArrayList<>(10);
     List<Integer> score2 = new ArrayList<>(10);
-    List<Integer> scoretotal = new ArrayList<>(10);
     int towtal=0;
     
     public Players(String name){
@@ -29,7 +28,6 @@ class Players {
                 }
 
             }
-            scoretotal.add(calc);
         }
 
         
