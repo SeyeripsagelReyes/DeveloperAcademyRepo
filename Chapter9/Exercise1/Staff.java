@@ -1,7 +1,13 @@
 class Staff extends UEmployee{
     
-    public void show(String nice){
-        System.out.println("Stuff");
+    private String jobTitle;
+
+    public void setJobTitle(String jobTitle) {
+        this.jobTitle = jobTitle;
+    }
+
+    public String getJobTitle() {
+        return jobTitle;
     }
 
 }

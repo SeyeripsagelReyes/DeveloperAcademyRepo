@@ -1,15 +1,19 @@
 class UEmployee {
-    public static void main(String[] args) {
-        UEmployee employee =new UEmployee();
-        UEmployee faculty = new Faculty();
-        UEmployee stuff = new Staff();
 
-    
+    private String name;
+    private int salary;
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setSalary(int salary) {
+        this.salary = salary;
     }
 
 
-    public void show(){
-        System.out.println("Eplyi");
+    public String toString() {
+        return "Name: "+this.name+"\t Salary: "+this.salary;
     }
-    
+
 }
