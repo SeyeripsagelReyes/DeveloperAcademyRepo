@@ -8,8 +8,8 @@ import java.text.DecimalFormat;
 class Food {
     
     private double price, total;
-    private double fat, carbs, fiber, quants;
-    private String Purhint, name;
+    private double fat, carbs, fiber;
+    private String name;
     DecimalFormat f = new DecimalFormat("##.00");
 
     public void BORGER() {
